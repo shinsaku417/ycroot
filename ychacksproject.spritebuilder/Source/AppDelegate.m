@@ -28,6 +28,8 @@
 #import "AppDelegate.h"
 #import "CCBuilderReader.h"
 
+#import <MyoKit/MyoKit.h>
+
 @implementation AppController
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -54,6 +56,7 @@
     
     [self setupCocos2dWithOptions:cocos2dSetup];
     
+    [TLMHub sharedHub];
     return YES;
 }
 

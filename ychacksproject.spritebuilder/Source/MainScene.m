@@ -8,6 +8,8 @@
 
 #import "MainScene.h"
 
-@implementation MainScene
+@implementation MainScene {
+    int score;
+}
 
 @end
