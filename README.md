@@ -12,7 +12,9 @@ If the player makes the same gesture move as the generator, the game ignores the
 
 ##What's Working?
 
-* NOTHING
+* Interaction of UIKit and Spritebuilder complete
+* Training of MYO with correct gestures
+* 
 
 ##Roadmap
 
